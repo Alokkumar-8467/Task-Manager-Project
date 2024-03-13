@@ -7,6 +7,7 @@ import { connectDb } from "@/helper/db";
 export async function GET(request){
    const authToken = request.cookies.get("authToken")?.value;
    console.log(authToken);
+   // We have to use this if condition to avoid null authToken
    if(!authToken){
       return NextResponse.json({
          message: "User is not loggedin",
