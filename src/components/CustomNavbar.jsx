@@ -30,7 +30,7 @@ const CustomNavbar = () => {
     <nav className="flex justify-between bg-blue-600 h-16 py-2 px-36 items-center">
         <div className='brand'>
             <h1 className='text-2xl font-semibold'>
-               <a href='#!'>Work Manager</a>
+               <a href='#!'>Task Manager</a>
             </h1>
         </div>
         <div>
